@@ -1,0 +1,43 @@
+#Cartel
+{
+    margin-top: 50px;
+    position: relative;
+}
+
+#Cartel img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#Cartel .contenedor
+{
+    position: absolute;
+    top: 75%;
+    left: 3%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+#Cartel h2
+{
+    font-size: 28px;
+    left: 0%;
+}
+
+#Cartel a
+{
+    display: block;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+}
+
+#Cartel a:hover
+{
+    background: rgba(197, 197, 197, 0.5);
+}

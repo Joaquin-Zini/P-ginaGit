@@ -1,0 +1,21 @@
+#Tutorial h3, h4
+{
+    text-align: center;
+}
+#Tutorial .contenedor
+{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+#Tutorial article
+{
+    margin: 15px;
+}
+
+#Tutorial img
+{
+    width: 100%;
+    max-width: 600px;
+}
