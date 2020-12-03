@@ -3,10 +3,13 @@
 @import url(Cartel.css);
 @import url(Tutotial.css);
 
-header div 
+div
 {
-    top: 100%;
-    overflow: scroll;
+     style="width:100px;
+      height:115px;
+      right: 0;
+       overflow: scroll;
+
 }
 
 {
