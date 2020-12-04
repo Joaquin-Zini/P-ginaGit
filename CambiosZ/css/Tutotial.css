@@ -1,21 +1,34 @@
-#Tutorial h3, h4
+#tutorial h3, h4
 {
     text-align: center;
 }
-#Tutorial .contenedor
+#tutorial a
+{
+    text-align: center;
+    width: 100%;
+}
+
+#tutorial .contenedor
 {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
 }
 
-#Tutorial article
+#tutorial article
 {
     margin: 15px;
 }
 
-#Tutorial img
+#tutorial img
 {
+    align-content: center;
     width: 100%;
     max-width: 600px;
+}
+#article a
+{
+    text-align: center;
+    right: 30px;
+    width: 100%;
 }

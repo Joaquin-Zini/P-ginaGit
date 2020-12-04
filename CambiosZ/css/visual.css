@@ -2,14 +2,15 @@
 @import url(menu.css);
 @import url(Cartel.css);
 @import url(Tutotial.css);
+@import url(consola.css);
 
-div
+body
 {
-     style="width:100px;
-      height:115px;
-      right: 0;
-       overflow: scroll;
-
+    
+     width:100px;
+     height:115px;
+     right: 0;
+     overflow: scroll;
 }
 
 {
@@ -53,5 +54,35 @@ header .contenedor
 section
 {
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+#presen
+{
+    text-align: center;
+}
+
+footer .contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.descarga
+{
+    font-size: 20px;
+}
+
+desc
+{
+    widows: 100px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.descarga a
+{
+    color: #333;
+    text-decoration: none;
 }

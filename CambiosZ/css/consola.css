@@ -1,0 +1,32 @@
+#consola
+{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#consola .contenedor
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comandos
+{
+    margin: 20px;
+}
+
+.comandos img
+{
+    width: 180;
+    height: 180;
+    border: 7px solid #fff;
+}
+.comandos embed
+{
+    width: 180;
+    height: 180;
+    border: 7px solid #fff;
+}
